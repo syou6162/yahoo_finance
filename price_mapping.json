@@ -2,7 +2,8 @@
     "price": {
 	"properties": {
 	    "日付": { "type": "date", "format": "date"},
-	    "code" : { "type": "string", "index": "not_analyzed" }
+	    "code" : { "type": "string", "index": "not_analyzed" },
+	    "name" : { "type": "string", "index": "not_analyzed" }
 	}
     }
 }
